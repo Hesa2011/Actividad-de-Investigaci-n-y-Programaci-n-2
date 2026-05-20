@@ -18,7 +18,7 @@ int main() {
                 parcial += datos[i];
             return parcial;
         },
-        std::plus<int>() // cómo combinar los resultados parciales
+        std::plus<int>() 
     );
 
     std::cout << "Suma total: " << suma << std::endl;
